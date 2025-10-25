@@ -44,6 +44,7 @@ main {
 }
 main nav {
   position: fixed;
+  z-index: 99;
   top: 0;
   width: 100%;
   background-color: white;
@@ -171,7 +172,7 @@ main section.view1 .bottom .circle img {
   left: 40%;
   transform: translate(-40%, 0);
   width: 60%;
-  z-index: 2;
+  z-index: 0;
 }
 main section.view2 {
   width: 100%;
@@ -291,5 +292,33 @@ main section.view2 .bottom .card .txt p {
     width: 40%;
     top: -8%;
     left: 43%;
+  }
+  main section.view2 {
+    gap: 8rem;
+  }
+  main section.view2 .top {
+    padding: 0rem 6rem;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main section.view2 .top h2 {
+    font-size: 4rem;
+  }
+  main section.view2 .bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main section.view2 .bottom .card {
+    width: 29%;
+    cursor: pointer;
+  }
+  main section.view2 .bottom .card img {
+    transition: all ease 0.6s;
+  }
+  main section.view2 .bottom .card img:hover {
+    scale: 1.2;
+    rotate: -30deg;
   }
 }/*# sourceMappingURL=style.css.map */

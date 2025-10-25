@@ -43,6 +43,7 @@ main{
     position: relative;
     nav{
         position: fixed;
+        z-index: 99;
         top: 0;
         width: 100%;
         background-color: white;
@@ -174,7 +175,7 @@ main{
                     left: 40%;
                     transform: translate(-40%,0);
                     width: 60%;
-                    z-index: 2;
+                    z-index: 0;
                 }
             }
         }
@@ -309,6 +310,37 @@ main{
                         width: 40%;
                         top: -8%;
                         left: 43%;
+                    }
+                }
+            }
+        }
+        section.view2{
+            gap: 8rem;
+            .top{
+                padding: 0rem 6rem;
+                flex-direction: row;
+                gap: 10rem;
+                align-items: center;
+                justify-content: space-between;
+
+                h2{
+                    font-size: 4rem;
+                }
+            }
+            .bottom{
+                flex-direction: row;
+                flex-wrap: wrap;
+                .card{
+                    width: 29%;
+                    cursor: pointer;
+
+
+                    img{
+                        transition: all ease 0.6s;
+                        &:hover{
+                            scale: 1.2;
+                            rotate: -30deg;
+                        }
                     }
                 }
             }
