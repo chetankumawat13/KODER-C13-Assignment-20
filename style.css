@@ -247,6 +247,174 @@ main section.view2 .bottom .card .txt p {
   color: #521FCC;
   text-align: center;
 }
+main section.view3 {
+  width: 100%;
+  background-color: #FFCC12;
+  flex-direction: column;
+  display: flex;
+  gap: 3rem;
+  padding: 6rem 0rem;
+}
+main section.view3 .top {
+  width: 100%;
+}
+main section.view3 .top img {
+  width: 100%;
+}
+main section.view3 .bottom {
+  padding: 0rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+main section.view3 .bottom h2 {
+  color: #521FCC;
+  font-family: f3;
+  font-size: 3rem;
+  text-align: center;
+}
+main section.view3 .bottom button {
+  padding: 1rem 1.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #E50192;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: f3;
+}
+main section.view3 .bottom .circle {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+main section.view3 .bottom .circle .cr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+main section.view3 .bottom .circle .cr h2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #521FCC;
+  color: white;
+  display: flex;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+main section.view3 .bottom .circle .cr p {
+  font-family: f4;
+  color: #521FCC;
+  font-size: 1rem;
+}
+main section.view3 .bottom .circle .cr1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+main section.view3 .bottom .circle .cr1 h2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #521FCC;
+  color: white;
+  display: flex;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  gap: 0;
+  align-items: center;
+}
+main section.view3 .bottom .circle .cr1 p {
+  font-family: f4;
+  color: #521FCC;
+  font-size: 1rem;
+}
+main section.view3 .bottom p {
+  font-family: f7;
+  color: #521FCC;
+  font-size: 1rem;
+}
+main section.view4 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  padding-bottom: 4rem;
+  background: url(/imgs/i11.webp);
+  aspect-ratio: 1/1.2;
+  background-size: cover;
+  justify-content: space-between;
+}
+main section.view4 .top h2 {
+  font-family: f3;
+  color: #521FCC;
+  font-size: 3rem;
+}
+main section.view4 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main section.view4 .bottom p {
+  font-family: f5;
+  color: #521FCC;
+  font-size: 1.1rem;
+}
+main section.view4 .bottom button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #E80194;
+  color: white;
+  font-size: 1rem;
+}
+main footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem 2rem;
+}
+main footer .top {
+  width: 100%;
+}
+main footer .top img {
+  width: 40%;
+}
+main footer a {
+  text-decoration: none;
+  color: #521FCC;
+  font-family: f7;
+  font-size: 0.9rem;
+}
+main footer p {
+  color: #521FCC;
+  font-family: f3;
+  font-size: 1.2rem;
+}
+main footer .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main footer .bottom .left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+main footer .bottom .right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
 
 @media (min-width: 1081px) {
   main nav {
@@ -320,5 +488,36 @@ main section.view2 .bottom .card .txt p {
   main section.view2 .bottom .card img:hover {
     scale: 1.2;
     rotate: -30deg;
+  }
+  main section.view4 {
+    height: 100vh;
+    width: 100%;
+  }
+  main section.view4 .top h2 {
+    font-size: 5rem;
+  }
+  main section.view4 .bottom {
+    align-items: end;
+    padding-left: 50rem;
+  }
+  main section.view4 .bottom p {
+    font-size: 1.4rem;
+  }
+  main section.view4 .bottom button {
+    font-size: 1.2rem;
+  }
+  main footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  main footer .top {
+    width: 50%;
+  }
+  main footer .bottom {
+    gap: 8rem;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
